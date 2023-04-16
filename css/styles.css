@@ -228,6 +228,10 @@ body {
 }
 
 .socials-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
   background-color: var(--logo-text-color);
   background-position: center;
 }
