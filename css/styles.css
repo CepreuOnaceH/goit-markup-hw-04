@@ -142,10 +142,15 @@ body {
   color: var(--secondary-text-color);
 }
 /* Hero section */
+.hero-background::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.7);
+}
+
 .hero-background {
   display: block;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7));
-  background: rgba(46, 47, 66, 0.7);
   background-image: url(../images/background/people-office.jpg);
   background-size: cover;
   content: "";
@@ -159,6 +164,7 @@ body {
   align-content: center;
   justify-content: center;
 }
+
 .hero {
   background-color: var(--primary-text-color);
   padding: 188px 0;
@@ -256,6 +262,31 @@ body {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
 }
+.clients-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+  color: var(--primary-text-color);
+}
+
+.clients-container {
+  display: flex;
+  gap: 24px;
+  width: calc((100% - (24 * 5) / 6));
+}
+.clients-icon {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  padding: 16px 32px;
+}
 
 .our-team {
   background-color: var(--logo-text-color);
@@ -282,6 +313,9 @@ body {
 .our-team-list {
   background: var(--biggest-text-color);
   width: calc((100% - 3 * 24px) / 4);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .our-team-list-text {
   color: var(--secondary-text-color);
@@ -292,6 +326,24 @@ body {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+.our-team-icons {
+  gap: 24px;
+  width: 232px;
+  height: 40px;
+  display: flex;
+}
+.our-team-icons-list {
+  width: 40px;
+  height: 40px;
+}
+.our-team-icons-link {
+  display: block;
+}
+.our-team-icons-svg {
+  width: 40px;
+  height: 40px;
 }
 /* filters section */
 .filter-button-first {
@@ -426,4 +478,24 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.footer-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--biggest-text-color);
+}
+.footer-icons-list {
+  display: flex;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+.footer-icons {
+  width: 40px;
+  height: 40px;
 }
