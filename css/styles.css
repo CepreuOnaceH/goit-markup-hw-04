@@ -266,8 +266,9 @@ body {
 /* Our team- section */
 
 .our-team-list-container {
-  padding: 32px 16px;
+  padding: 32px 0px;
   border-radius: 0px 0px 4px 4px;
+  justify-content: center;
 }
 .clients-title {
   font-family: "Roboto";
@@ -347,10 +348,24 @@ body {
 }
 .our-team-icons-link {
   display: block;
+  width: 100%;
+  height: 100%;
+  background-color: var(--accent-text-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.our-team-icons-link:hover {
+  background-color: #404bbf;
+}
+
+.our-team-icons-link:focus {
+  background-color: #404bbf;
 }
 .our-team-icons-svg {
-  width: 40px;
-  height: 40px;
+  fill: #f4f4fd;
 }
 /* filters section */
 .filter-button-first {
@@ -385,6 +400,16 @@ body {
 /* Portfolio section */
 .portfolio-section {
   padding-bottom: 120px;
+}
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+  gap: 24px;
+}
+
+.portfolio-item {
+  display: block;
 }
 
 .list-container {
