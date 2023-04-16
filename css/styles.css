@@ -437,11 +437,8 @@ body {
 }
 .portfolio-card-item:hover,
 .portfolio-card-item:focus {
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
-
-  box-shadow: 0px 1px 1px 0px #2e2f4229;
-
-  box-shadow: 0px 1px 6px 0px #2e2f4214;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-item {
@@ -449,11 +446,8 @@ body {
 }
 .portfolio-item:hover,
 .portfolio-item:focus {
-  box-shadow: 0px 2px 2px 0px #0000001f;
-
-  box-shadow: 0px 2px 1px 0px #00000014;
-
-  box-shadow: 0px 3px 1px 0px #0000001a;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .list-container {
   display: flex;
@@ -485,16 +479,14 @@ body {
   display: block;
 }
 .portfolio-link {
+  display: block;
   color: var(--primary-text-color);
   text-decoration: none;
 }
 .portfolio-link:focus,
 .portfolio-link:hover {
-  box-shadow: 0px 2px 1px 0px #2e2f4214;
-
-  box-shadow: 0px 1px 1px 0px #2e2f4229;
-
-  box-shadow: 0px 1px 6px 0px #2e2f4214;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card-title {
