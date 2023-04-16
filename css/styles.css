@@ -232,6 +232,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 112px;
+  border-radius: 4px;
+  margin-bottom: 8px;
   background-color: var(--logo-text-color);
   background-position: center;
 }
