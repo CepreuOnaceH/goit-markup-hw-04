@@ -575,6 +575,14 @@ body {
   align-items: baseline;
   margin-right: 120px;
 }
+.footer-logo-container {
+  display: block;
+}
+.footer-social-container {
+  display: block;
+  align-items: baseline;
+  margin-right: 120px;
+}
 .footer-icons {
   width: 40px;
   height: 40px;
