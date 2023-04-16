@@ -60,7 +60,6 @@ body {
   display: flex;
   align-items: center;
   gap: 40px;
-  /* margin-left: 76px; */
 }
 
 .header-list {
@@ -143,6 +142,19 @@ body {
   color: var(--secondary-text-color);
 }
 /* Hero section */
+.hero-background {
+  display: block;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7));
+  background: rgba(46, 47, 66, 0.7);
+  background-image: url(../images/background/people-office.jpg);
+  background-size: cover;
+  content: "";
+  margin-left: auto;
+  margin-right: auto;
+  background-position: left;
+  object-fit: cover;
+}
+
 .container-hero {
   align-content: center;
   justify-content: center;
@@ -150,6 +162,8 @@ body {
 .hero {
   background-color: var(--primary-text-color);
   padding: 188px 0;
+  max-width: 1440px;
+  height: 600px;
 }
 .hero-title {
   color: var(--biggest-text-color);
@@ -158,8 +172,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   max-width: 496px;
-  display: inline-block;
-  margin-left: 316px;
+  margin: 0 auto;
 }
 .hero-btn {
   background-color: var(--accent-text-color);
@@ -176,7 +189,6 @@ body {
   border: none;
   border-radius: 4px;
   margin: 48px 635px 0px 480px;
-  /* padding-bottom: 188px; */
 }
 .hero-btn:active {
   background-color: var(--hero-btn-bcg-color);
@@ -198,6 +210,19 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+}
+
+.socials-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  border-radius: 4px;
+  padding-bottom: 8px;
+}
+
+.socials-item {
+  background-color: var(--logo-text-color);
+  background-position: center;
 }
 .aboutus-title {
   color: var(--primary-text-color);
@@ -308,7 +333,6 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   gap: 24px;
-  margin-bottom: 72px;
 }
 .portfolio-card-list {
   display: flex;
