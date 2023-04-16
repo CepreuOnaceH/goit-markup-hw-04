@@ -409,6 +409,11 @@ body {
   color: var(--biggest-text-color);
   background: var(--hero-btn-bcg-color);
   border: 1px solid transparent;
+  box-shadow: 0px 2px 2px 0px #0000001f;
+
+  box-shadow: 0px 2px 1px 0px #00000014;
+
+  box-shadow: 0px 3px 1px 0px #0000001a;
 }
 .doing-list {
   width: calc((100% - 48px) / 3);
@@ -468,6 +473,15 @@ body {
   color: var(--primary-text-color);
   text-decoration: none;
 }
+.portfolio-link:focus,
+.portfolio-link:hover {
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
+}
+
 .portfolio-card-title {
   font-weight: 500;
   font-size: 20px;
