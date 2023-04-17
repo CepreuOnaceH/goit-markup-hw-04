@@ -293,7 +293,7 @@ body {
   height: 100%;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  padding: 16px 32px;
+  /* padding: 16px 32px; */
   align-items: center;
   justify-content: center;
   color: #8e8f99;
@@ -573,8 +573,8 @@ body {
   margin-right: 120px;
 }
 .footer-icons {
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   fill: var(--logo-text-color);
 }
 .footer-icons-item {
